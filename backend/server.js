@@ -15,7 +15,7 @@ const PREDICT_SCRIPT = path.join(ROOT, 'ml', 'predict.py');
 const INSIGHTS_SCRIPT = path.join(ROOT, 'ml', 'insights.py');
 
 app.use(helmet());
-app.use(cors({ origin: process.env.CORS_ORIGIN || 'http://localhost:3000' }));
+app.use(cors());
 app.use(express.json({ limit: '10kb' }));  
 app.use(express.static(path.join(ROOT, 'frontend')));                         // ← serves frontend/
 
