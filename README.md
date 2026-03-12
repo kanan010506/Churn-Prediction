@@ -4,6 +4,7 @@ A full-stack machine learning web app that predicts customer churn probability i
 
 ![ChurnScope Preview](./assets/preview.png)
 
+🔗 **Live Demo:** [churn-prediction-u0xg.onrender.com](https://churn-prediction-u0xg.onrender.com)
 ---
 
 ## What it does
